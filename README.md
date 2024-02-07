@@ -1,4 +1,4 @@
-## My Project
+## amazon-ecs-for-azure-devops-hosted-agents
 
 TODO: Fill this README out!
 
