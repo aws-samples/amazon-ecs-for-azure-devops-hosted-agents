@@ -1,3 +1,4 @@
+provider_region     = "eu-west-2" //Replace with the preferred region
 project_name        = "ado-ecs-runner"
 environment         = "dev"
 source_repo_name    = "ado-ecs-repo"
