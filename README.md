@@ -67,7 +67,7 @@ The Amazon API Gateway endpoint, which will be used in the ADO configuration. It
 
 With the Terraform stack deployed, you will need to prepare a few more resources to ensure the solution functions as expected. At this stage, there will be an AWS CodeCommit repository created as listed in the output `clone_url_http_grc`.
 
-See [TERRAFOMR_INFO](TERRAFORM_INFO.md) for more information on resources, variables and output.
+See [TERRAFORM_INFO](TERRAFORM_INFO.md) for more information on resources, variables and output.
 
 1. Navigate locally to the `ado_agent_repo` subdirectory of `amazon-ecs-for-azure-devops-hosted-agents`
 
@@ -174,7 +174,7 @@ _Figure 12: Screenshot showing successful pipeline job execution_
 _Figure 13: Screenshot indicating agent task running with configured IAM Role_
 
 
-### Cleanup
+### Clean-up
 
 Deploying this solution will provision resources and incur costs. Once you have completed testing and you no longer need the setup, remove provisioned resources to avoid unintended costs:
 
